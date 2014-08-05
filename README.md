@@ -1,3 +1,5 @@
+<img src="https://david-dm.org/matt-diehl/Grunt-PatternLibrary.png">
+
 # grunt-patternlibrary
 
 > Creates a JSON object from comments in stylesheet used to help generate a style guide/pattern library.
