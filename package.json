@@ -1,23 +1,23 @@
 {
-  "name": "grunt-patternlibrary",
+  "name": "grunt-yapl",
   "description": "Creates a JSON object from comments in stylesheet used to help generate a style guide/pattern library.",
   "version": "0.1.0",
-  "homepage": "https://github.com/matt-diehl/Pattern-Guide",
+  "homepage": "https://github.com/matt-diehl/Grunt-YAPL",
   "author": {
     "name": "Matt Diehl",
     "email": "mdiehl1@umbc.edu"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/matt-diehl/Pattern-Guide"
+    "url": "https://github.com/matt-diehl/Grunt-YAPL"
   },
   "bugs": {
-    "url": "https://github.com/matt-diehl/Pattern-Guide/issues"
+    "url": "https://github.com/matt-diehl/Grunt-YAPL/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/matt-diehl/Pattern-Guide/blob/master/LICENSE-MIT"
+      "url": "https://github.com/matt-diehl/Grunt-YAPL/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
@@ -27,7 +27,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "patternlibrary": "0.0.4"
+    "yapl": "0.0.5"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "^0.9.2",

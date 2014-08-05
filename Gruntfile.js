@@ -1,5 +1,5 @@
 /*
-* grunt-patternlibrary
+* grunt-yapl
 * https://github.com/matt-diehl/Pattern-Guide
 *
 * Copyright (c) 2014 Matt Diehl
@@ -29,12 +29,12 @@ module.exports = function(grunt) {
         },
 
         // Configuration to be run (and then tested).
-        patternlibrary: {
+        yapl: {
             test: {
                 options: {
-                    cssDir: 'node_modules/patternlibrary/example/css',
-                    partialsDir: 'node_modules/patternlibrary/example/templates-main/partials',
-                    dataDir: 'node_modules/patternlibrary/example/templates-main/data',
+                    cssDir: 'node_modules/yapl/example/css',
+                    partialsDir: 'node_modules/yapl/example/templates-main/partials',
+                    dataDir: 'node_modules/yapl/example/templates-main/data',
                     outputFile: 'test/styleguide.json'
                 }
             }
@@ -57,7 +57,7 @@ module.exports = function(grunt) {
 
     // Whenever the "test" task is run, first clean the "tmp" dir, then run this
     // plugin's task(s), then test the result.
-    grunt.registerTask('test', ['clean', 'patternlibrary', 'nodeunit']);
+    grunt.registerTask('test', ['clean', 'yapl', 'nodeunit']);
 
     // By default, lint and run all tests.
     grunt.registerTask('default', ['jshint', 'test']);
