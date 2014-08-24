@@ -27,7 +27,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "yapl": "0.0.5"
+    "yapl": "0.0.6"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "^0.9.2",
