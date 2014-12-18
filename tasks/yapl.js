@@ -14,7 +14,7 @@ module.exports = function(grunt) {
 
         var yapl = require('yapl');
 
-        yapl.init(this.data.options);
+        yapl(this.data);
 
     });
 
