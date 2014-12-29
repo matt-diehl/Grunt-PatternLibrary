@@ -10,11 +10,11 @@
 
 module.exports = function(grunt) {
 
-    grunt.registerMultiTask('yapl', 'Creates a JSON object from comments in stylesheet used to help generate a style guide/pattern library.', function() {
+    grunt.registerMultiTask('yapl', 'Creates a JSON object from comments in stylesheet to generate a style guide/pattern library.', function() {
 
         var yapl = require('yapl');
 
-        yapl.init(this.data.options);
+        yapl(this.data);
 
     });
 
