@@ -1,7 +1,7 @@
 {
   "name": "grunt-yapl",
   "description": "Creates a JSON object from comments in stylesheet used to help generate a style guide/pattern library.",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "homepage": "https://github.com/matt-diehl/Grunt-YAPL",
   "author": {
     "name": "Matt Diehl",
@@ -27,7 +27,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "yapl": "~1.1.7"
+    "yapl": "~1.1.8"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "^0.9.2",
